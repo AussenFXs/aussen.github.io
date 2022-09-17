@@ -1,7 +1,7 @@
 /*BG Color*/
 body{
     background-color: linear-gradient(#2e1c40, #6b4195, #a866ea);
-    color: white; 
+    text-color: white; 
 }
 /*Centrar toda la pagina*/
 div {
