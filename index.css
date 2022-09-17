@@ -63,8 +63,19 @@ h3 {
     transform: translateY(4px);
   } 
 footer{
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
-    text-align: center;
+    font-family: "Comic Sans MS", "Comic Sans", cursive; 
+}
+
+
+.copyright:before {
+    content: "Todos los zurdos reservados - 1976-1983☭";
+    font-size: 18px;
+    text-align: left;
+}
+.copyright:hover:before {
+    content: "Todos los derechos reservados 2022 ©";
+    font-size: 18px;
+    text-align: right;
 }
 .menu{
     margin-left: auto;
