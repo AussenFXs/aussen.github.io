@@ -100,4 +100,5 @@ function pickRandom() {
     var randomthing = (wordsarray[randomnumber]) + " " + (wordsarray2[randomnumber2])
     //alert(randomthing)
     document.getElementById('printing').innerHTML = randomthing
+    console.log
     }
