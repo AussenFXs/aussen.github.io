@@ -1,3 +1,8 @@
+/*BG Color*/
+body{
+    background-color: linear-gradient(#2e1c40, #6b4195, #a866ea);
+    color: white; 
+}
 /*Centrar toda la pagina*/
 div {
     top: 7%;
@@ -52,3 +57,6 @@ h3 {
     box-shadow: 0 5px #666;
     transform: translateY(4px);
   }
+.copyright{
+    text-align: center;
+}
