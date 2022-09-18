@@ -24,6 +24,10 @@ function pickRandom() {
         'Paja',
         'Choripan',
         //to here.
+        //update2
+        'Pungueo',
+        'Talco',
+        //updated2
         'Internet',
         'Policia',
         'Camión',
@@ -70,6 +74,10 @@ function pickRandom() {
             'metaforico',
             'metaforica',
             //to here.
+            //update2
+            'Estable',
+            'penetrado',
+            //updated2
             'Fucsia',
             'Marron',
             'con dulce de leche',
