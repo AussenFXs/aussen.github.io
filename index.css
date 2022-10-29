@@ -67,13 +67,13 @@ h3 {
 
 .copyright:before {
     content: "Todos los zurdos reservados - 1976-1983☭";
-    font-size: 1em;
+    font-size: 18px;
     text-align: left;
     display: inline-block;
 }
 .copyright:hover:before {
     content: "Todos los derechos reservados 2022 ©";
-    font-size: 1em;
+    font-size: 18px;
     text-align: left;
     display: inline-block;
 }
