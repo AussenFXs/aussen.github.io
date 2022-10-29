@@ -74,7 +74,7 @@ h3 {
 .copyright:hover:before {
     content: "Todos los derechos reservados 2022 ©";
     font-size: 1em;
-    text-align: right;
+    text-align: left;
     display: inline-block;
 }
 .menu{
