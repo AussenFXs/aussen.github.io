@@ -1,3 +1,7 @@
+* {
+    font-family: 'Comfortaa', cursive;
+}
+
 body {
     width: 100%;
     height: 100vh;
@@ -10,20 +14,19 @@ div {
     top: 7%;
     width: 100%;
     text-align: center;
-    font-size: 18px;
+    font-size: 1em;
 }
 .div2 {
     top: 7%;
     width: 100%;
     text-align: center;
-    font-size: 18px;
+    font-size: 1em;
 }
 /*Titulo Pagina*/
 h2 {
     text-align: center;
-    top: 10%;
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
-    font-size: 36px;
+    top: 10%; 
+    font-size: 2em;
     color: white;
 }
 
@@ -33,8 +36,7 @@ h2 {
 h3 {
     text-align: center;
     top: auto;
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
-    font-size: 26px;
+    font-size: 2em;
     color: white;
 }
 /*Estilo Boton*/
@@ -42,8 +44,7 @@ h3 {
     margin: auto;
     display: inline-block;
     padding: 15px 25px;
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
-    font-size: 24px;
+    font-size: 2em;
     cursor: pointer;
     text-align: center;
     text-decoration: none;
@@ -62,20 +63,19 @@ h3 {
     box-shadow: 0 0 5px 0 rgb(69, 45, 83);
     transform: translateY(4px);
   } 
-footer{
-    font-family: "Comic Sans MS", "Comic Sans", cursive; 
-}
 
 
 .copyright:before {
     content: "Todos los zurdos reservados - 1976-1983☭";
-    font-size: 18px;
+    font-size: 1em;
     text-align: left;
+    display: inline-block;
 }
 .copyright:hover:before {
     content: "Todos los derechos reservados 2022 ©";
-    font-size: 18px;
+    font-size: 1em;
     text-align: right;
+    display: inline-block;
 }
 .menu{
     margin-left: auto;
@@ -83,5 +83,5 @@ footer{
      width: auto;
      position: relative;
      overflow: auto;
-     z-index: 1;
+     z-index: 50;
 }
