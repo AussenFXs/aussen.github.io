@@ -67,7 +67,7 @@ h3 {
 
 .copyright_footer {
     display: block;
-    positi
+    position: static;
 }
 
 .copyright:before {
