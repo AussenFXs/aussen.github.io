@@ -65,6 +65,11 @@ h3 {
   } 
 
 
+.copyright_footer {
+    display: block;
+    positi
+}
+
 .copyright:before {
     content: "Todos los zurdos reservados - 1976-1983☭";
     font-size: 18px;
