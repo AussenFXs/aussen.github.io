@@ -117,6 +117,9 @@ function pickRandom() {
             'Chirolero',
             'Escayol',
             //</update3>
+            //<test-3>
+            'petero',
+            //test3-end
             'Fucsia',
             'Marron',
             'con dulce de leche',
