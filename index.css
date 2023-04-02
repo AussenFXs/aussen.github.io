@@ -30,6 +30,7 @@ h2 {
     color: white;
 }
 .version {
+    display: inline-block;
     color: #808080;
 }
 
