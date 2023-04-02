@@ -24,14 +24,19 @@ div {
 }
 /*Titulo Pagina*/
 h2 {
+    display: inline;
     text-align: center;
     top: 10%; 
     font-size: 2em;
     color: white;
 }
-.version {
-    display: inline-block;
+
+  .version {
+    top: 7%;
+    width: 100%;
+    text-align: center;
     color: #808080;
+    font-size: 2em;
 }
 
 /*Divisor texto del pickRandom*/
