@@ -29,9 +29,7 @@ h2 {
     top: 10%; 
     font-size: 2em;
     color: white;
-    -webkit-animation: glow 1s ease-in-out infinite alternate;
-    -moz-animation: glow 1s ease-in-out infinite alternate;
-    animation: glow 1s ease-in-out infinite alternate;
+    animation-name: glow 1s ease-in-out infinite alternate;
 }
 
   .version {
@@ -42,7 +40,7 @@ h2 {
     color: #ffffff;
     font-size: 2em;
     border: none;
-    animation: glow 1s ease-in-out infinite alternate;
+    animation-name: glow 1s ease-in-out infinite alternate;
 }
 
 @keyframes glow {
