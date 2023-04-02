@@ -29,6 +29,9 @@ h2 {
     font-size: 2em;
     color: white;
 }
+.version {
+    color: #808080;
+}
 
 /*Divisor texto del pickRandom*/
 
