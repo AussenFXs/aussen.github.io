@@ -144,6 +144,23 @@ h3 {
     transform: translateY(4px);
   }
 
+/*Copyright style*/
+  footer {
+    position: relative;
+    height: 688px;
+    width: 100%;
+    background-color: #33333300;
+}
+
+  .copyright {
+    position: absolute;
+    width: 100%;
+    color: #fff;
+    line-height: 40px;
+    font-size: 0.7em;
+    text-align: center;
+    bottom:0;
+}
 .copyright_footer {
     display: block;
     position: bottom;
