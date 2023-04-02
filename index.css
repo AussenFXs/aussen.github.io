@@ -112,7 +112,7 @@ h3 {
     animation: lights 5s 750ms linear infinite;
 }
 /*Estilo Boton*/
-.button {
+button {
     margin: auto;
     display: inline-block;
     padding: 15px 25px;
@@ -121,6 +121,7 @@ h3 {
     text-align: center;
     text-decoration: none;
     outline: none;
+    transition: all .5s;
     color: #ffffff;
     background-color: #7648d2;
     border: none;
@@ -128,18 +129,24 @@ h3 {
     box-shadow: 0 0 9px 0 rgba(187, 153, 255, 0.282)
   }
   
-  .button:hover {background-color: #f5f0ff48}
-  
-  .button:active {
+  button:hover {
+    transition: all .5s;
+    background-color: #f5f0ff48;
+    transform: rotate(-1deg) scale(1.1);
+  }
+  button:hover span{
+    animation-play-state: paused;
+}
+  button:active {
+    transition: all .2s;
     background-color: #d9c6ff1f;
     box-shadow: 0 0 5px 0 rgb(69, 45, 83);
     transform: translateY(4px);
-  } 
-
+  }
 
 .copyright_footer {
     display: block;
-    position: static;
+    position: bottom;
 }
 
 .copyright:before {
