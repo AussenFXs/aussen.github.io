@@ -147,7 +147,7 @@ h3 {
 /*Copyright style*/
   footer {
     position: relative;
-    height: 688px;
+    height: 618px;
     width: 100%;
     background-color: #33333300;
 }
@@ -173,7 +173,7 @@ h3 {
     display: inline-block;
 }
 .copyright:hover:before {
-    content: "Todos los derechos reservados 2023 ©";
+    content: "Aussen & Somethyn' - Todos los derechos reservados 2023 ©";
     font-size: 18px;
     text-align: left;
     display: inline-block;
